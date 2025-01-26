@@ -7,4 +7,5 @@ export default interface IProduct {
   image: string;
   description: string;
   available: boolean;
+  quantity?: number;
 }
